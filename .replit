@@ -22,3 +22,6 @@ start = ["solargraph", "stdio"]
 
 [nix]
 channel = "stable-21_11"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", "README.md"]
